@@ -1,0 +1,169 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.screen-home {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    height: 1100px;
+    background: url("https://preview.colorlib.com/theme/glint/images/hero-bg.jpg") center/cover no-repeat fixed;
+    /* Set your background image with fixed attachment */
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* choosed rgba instead of opacity bcoz opacity will be applied to every child elements of our parent div that means all our heading buttons para will also look lighter in color so we should always use rgba alpha which will only act on parent div */
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    /* border: 4px solid green; */
+}
+
+.home-child-left {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 4px solid green; */
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+.home-child-left span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+.home-child-left p {
+    font-size: 62px;
+    line-height: 82px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: start;
+}
+
+.home-child-left-btn{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid white; */
+    margin-top: 10%;
+    /* height: 60px; */
+    margin-bottom: 80px;
+}
+
+.home-child-left-btn>button {
+    height: 60px;
+    padding: 14px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    background: transparent;
+    text-transform: uppercase;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.home-child-left-btn>button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.home-child-right-bar {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    /* border: 2px solid red; */
+    animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.home-child-right-bar>i {
+    width: 30%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 20px 10px;
+    color: white;
+}
+
+.scroll-line{
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    border-right: 3px solid #359c42;
+    z-index: 200;
+    /* border: 2px solid white; */
+}
+
+.scroll-line i{
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #359c42;
+    margin-right: 10px;
+    /* border: 2px solid white; */
+}
+
+.scroll-line span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+    /* border: 2px solid white; */
+}
