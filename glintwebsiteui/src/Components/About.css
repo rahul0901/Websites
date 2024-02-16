@@ -1,0 +1,114 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.screen-about{
+    width: 100%;
+    background-color: #39b54a;
+}
+
+.about-parent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.about-up-line{
+    width: 96%;
+    height: 110px;
+    margin: auto;
+    /* border: 2px solid red; */
+    border-right: 3px solid white;
+}
+
+.about-head{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid #6bc877;
+    /* margin-top: 60px; */
+    margin-top: 220px;
+    margin-bottom: 60px;
+}
+
+.about-head span{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.about-head h2{
+    font-size: 82px;
+    line-height: 98px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+}
+
+.about-content{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-bottom: 60px;
+}
+
+.about-content p{
+    font-size: 24px;
+    line-height: 48px;
+    color: black;
+}
+
+.about-score-cards-parent{
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-bottom: 120px;
+}
+
+.score-card-inner-parent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+}
+
+.score-card-inner-child{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+
+.score-card-inner-child:nth-child(2){
+    border-left: 2px solid #6bc877;
+    border-right: 2px solid #6bc877;
+}
+
+.score-card-inner-child:nth-child(3){
+    border-right: 2px solid #6bc877;
+}
+
+.score-card-inner-child span{
+    font-size: 92px;
+    line-height: 120px;
+    font-weight: 700;
+}
+
+.score-card-inner-child a{
+    font-size: 22px;
+    /* line-height: 40px; */
+    font-weight: 700;
+    color: black;
+}
