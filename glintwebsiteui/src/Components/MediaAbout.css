@@ -1,0 +1,99 @@
+@media screen and (max-width:1210px) {
+
+    .about-head{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+
+    .about-head{
+        width: 70%;
+    }
+
+
+    .score-card-inner-child {
+        width: 50%;
+        border: none;
+    }
+
+    .score-card-inner-child:nth-child(2), .score-card-inner-child:nth-child(3){
+        border: none;
+    }
+
+}
+
+/* @media screen and (max-width:915px) {
+
+
+} */
+
+@media screen and (max-width:870px) {
+
+    .about-head h2 {
+        font-size: 58px;
+        line-height: normal;
+    }
+
+    .about-head{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:540px){
+
+    .about-head h2 {
+        font-size: 58px;
+        line-height: normal;
+    }
+
+    .about-head{
+        width: 100%;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .about-content p{
+        text-align: center;
+        font-size: 20px;
+        line-height: normal;
+        color: black;
+    }
+
+    .score-card-inner-child {
+        width: 90%;
+        margin: auto;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width:430px){
+
+    .about-head{
+        margin-top: 40px;
+    }
+
+    .about-head h2 {
+        font-size: 42px;
+        line-height: normal;
+    }
+
+    .score-card-inner-child span{
+        font-size: 72px;
+        line-height: 100px;
+        font-weight: 700;
+    }
+
+    .score-card-inner-child a{
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+    }
+
+}
+

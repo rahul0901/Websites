@@ -1,0 +1,17 @@
+@media screen and (max-width:520px) {
+    .header-right span{
+        display: none;
+    }
+
+    .header-right{
+        height: 50%;
+    }
+
+    .header-right i{
+        width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+}
