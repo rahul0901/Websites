@@ -1,0 +1,70 @@
+.screen-work{
+    width: 100%;
+    background-color: black;
+}
+
+.work-parent{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.work-head {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-bottom: 2px solid #e5e5e5;
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+
+.work-head span {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #39b54a;
+    text-transform: uppercase;
+}
+
+.work-head h2 {
+    font-size: 52px;
+    line-height: 68px;
+    font-weight: 700;
+    /* text-transform: capitalize; */
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.work-image-parent{
+    width: 87%;
+    /* margin: auto; */
+    background: black;
+    height: 200px;
+    position: absolute;
+    /* if i do bottom 0 and translate 7%, 70% then div will take same position but on bottom line */
+    top: 0;
+    right: 0;
+    /* even if we dont assign left as auto it will be auto because of deafult value */
+    left: auto;
+    /* (horizontal, vertical) */
+    transform: translate(-7%, -70%);
+    border: 3px solid blue;
+}
+
+.work-dummy-parent{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: white;
+    border: 3px solid green;
+    margin-bottom: 20px;
+}
